@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Top_level_tf_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Top_level_tf" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10206666fs"></ZoomStartTime>
+      <ZoomEndTime time="11206667fs"></ZoomEndTime>
+      <Cursor1Time time="10656033fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="group3" type="group">
+      <obj_property name="label">main clk and reset</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_level_tf/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group8" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_0/Din" type="array">
+         <obj_property name="ElementShortName">Din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_0/Dout" type="array">
+         <obj_property name="ElementShortName">Dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Dout[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">Instmem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_level_tf/UUT/Instmem_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Instmem_0/address" type="array">
+         <obj_property name="ElementShortName">address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Instmem_0/inst" type="array">
+         <obj_property name="ElementShortName">inst[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Instmem_0/InstMem" type="array">
+         <obj_property name="ElementShortName">InstMem[0:255][7:0]</obj_property>
+         <obj_property name="ObjectShortName">InstMem[0:255][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Instmem_0/i" type="array">
+         <obj_property name="ElementShortName">i[8:0]</obj_property>
+         <obj_property name="ObjectShortName">i[8:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group44" type="group">
+      <obj_property name="label">Control_Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/op_code" type="array">
+         <obj_property name="ElementShortName">op_code[5:0]</obj_property>
+         <obj_property name="ObjectShortName">op_code[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/alu_op" type="array">
+         <obj_property name="ElementShortName">alu_op[5:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_op[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/reg_dst" type="logic">
+         <obj_property name="ElementShortName">reg_dst</obj_property>
+         <obj_property name="ObjectShortName">reg_dst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/jump" type="logic">
+         <obj_property name="ElementShortName">jump</obj_property>
+         <obj_property name="ObjectShortName">jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/beq" type="logic">
+         <obj_property name="ElementShortName">beq</obj_property>
+         <obj_property name="ObjectShortName">beq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/bne" type="logic">
+         <obj_property name="ElementShortName">bne</obj_property>
+         <obj_property name="ObjectShortName">bne</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/blez" type="logic">
+         <obj_property name="ElementShortName">blez</obj_property>
+         <obj_property name="ObjectShortName">blez</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/bgtz" type="logic">
+         <obj_property name="ElementShortName">bgtz</obj_property>
+         <obj_property name="ObjectShortName">bgtz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/mem_read" type="logic">
+         <obj_property name="ElementShortName">mem_read</obj_property>
+         <obj_property name="ObjectShortName">mem_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/mem_to_reg" type="logic">
+         <obj_property name="ElementShortName">mem_to_reg</obj_property>
+         <obj_property name="ObjectShortName">mem_to_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/mem_write" type="logic">
+         <obj_property name="ElementShortName">mem_write</obj_property>
+         <obj_property name="ObjectShortName">mem_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/alu_src" type="logic">
+         <obj_property name="ElementShortName">alu_src</obj_property>
+         <obj_property name="ObjectShortName">alu_src</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Control_Unit_0/reg_write" type="logic">
+         <obj_property name="ElementShortName">reg_write</obj_property>
+         <obj_property name="ObjectShortName">reg_write</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">Alu_Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_level_tf/UUT/Alu_cntl_0/op" type="array">
+         <obj_property name="ElementShortName">op[5:0]</obj_property>
+         <obj_property name="ObjectShortName">op[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Alu_cntl_0/func" type="array">
+         <obj_property name="ElementShortName">func[5:0]</obj_property>
+         <obj_property name="ObjectShortName">func[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Alu_cntl_0/alu_cntl" type="array">
+         <obj_property name="ElementShortName">alu_cntl[5:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_cntl[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">RegFile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/w_en" type="logic">
+         <obj_property name="ElementShortName">w_en</obj_property>
+         <obj_property name="ObjectShortName">w_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/read1" type="array">
+         <obj_property name="ElementShortName">read1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">read1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/read2" type="array">
+         <obj_property name="ElementShortName">read2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">read2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/w_reg" type="array">
+         <obj_property name="ElementShortName">w_reg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">w_reg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/w_data" type="array">
+         <obj_property name="ElementShortName">w_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">w_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/rs" type="array">
+         <obj_property name="ElementShortName">rs[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/rt" type="array">
+         <obj_property name="ElementShortName">rt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rt[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1" type="array">
+         <obj_property name="ElementShortName">mem1[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem1[0:31][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Top_level_tf/UUT/RegFile_0/mem1[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_level_tf/UUT/ALU_0/rs" type="array">
+         <obj_property name="ElementShortName">rs[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/ALU_0/rt" type="array">
+         <obj_property name="ElementShortName">rt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rt[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/ALU_0/alu_cntl" type="array">
+         <obj_property name="ElementShortName">alu_cntl[5:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_cntl[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/ALU_0/shamt" type="array">
+         <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/ALU_0/result" type="array">
+         <obj_property name="ElementShortName">result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/ALU_0/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group64" type="group">
+      <obj_property name="label">PC_Next</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/pc" type="array">
+         <obj_property name="ElementShortName">pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/branch_address" type="array">
+         <obj_property name="ElementShortName">branch_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">branch_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/jump_address" type="array">
+         <obj_property name="ElementShortName">jump_address[25:0]</obj_property>
+         <obj_property name="ObjectShortName">jump_address[25:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/jump" type="logic">
+         <obj_property name="ElementShortName">jump</obj_property>
+         <obj_property name="ObjectShortName">jump</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/beq" type="logic">
+         <obj_property name="ElementShortName">beq</obj_property>
+         <obj_property name="ObjectShortName">beq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/bne" type="logic">
+         <obj_property name="ElementShortName">bne</obj_property>
+         <obj_property name="ObjectShortName">bne</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/blez" type="logic">
+         <obj_property name="ElementShortName">blez</obj_property>
+         <obj_property name="ObjectShortName">blez</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/bgtz" type="logic">
+         <obj_property name="ElementShortName">bgtz</obj_property>
+         <obj_property name="ObjectShortName">bgtz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/alu_lsb" type="logic">
+         <obj_property name="ElementShortName">alu_lsb</obj_property>
+         <obj_property name="ObjectShortName">alu_lsb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/Dout" type="array">
+         <obj_property name="ElementShortName">Dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Dout[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/PC_Next_0/pc_4" type="array">
+         <obj_property name="ElementShortName">pc_4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_4[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group365" type="group">
+      <obj_property name="label">Datamem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Top_level_tf/UUT/Datamem_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Datamem_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Datamem_0/read" type="logic">
+         <obj_property name="ElementShortName">read</obj_property>
+         <obj_property name="ObjectShortName">read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Datamem_0/write" type="logic">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Datamem_0/address" type="array">
+         <obj_property name="ElementShortName">address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">address[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Datamem_0/write_data" type="array">
+         <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Datamem_0/read_data" type="array">
+         <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Top_level_tf/UUT/Datamem_0/datamem" type="array">
+         <obj_property name="ElementShortName">datamem[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">datamem[0:31][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
