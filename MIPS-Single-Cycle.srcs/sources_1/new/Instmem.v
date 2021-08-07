@@ -48,13 +48,13 @@ always@(*) begin
         InstMem[32] = 8'h01;InstMem[33] = 8'h08;InstMem[34] = 8'h40;InstMem[35] = 8'h20;// 0X20  add $t0, $t0, $t0
         InstMem[36] = 8'h10;InstMem[37] = 8'h00;InstMem[38] = 8'hff;InstMem[39] = 8'hf8;// 0X24  beq $zero, $zero oddevencheck
         //testing bgtz,blez, and jump 
-        InstMem[40] = 8'h8c;InstMem[41] = 8'h08;InstMem[42] = 8'h00;InstMem[43] = 8'h04;// 0X28  lw $t0,12($zero)loading 8 into reg 
+        InstMem[40] = 8'h8c;InstMem[41] = 8'h08;InstMem[42] = 8'h00;InstMem[43] = 8'h0c;// 0X28  lw $t0,12($zero)loading 8 into reg 
         InstMem[44] = 8'h1d;InstMem[45] = 8'h00;InstMem[46] = 8'h00;InstMem[47] = 8'h01;// 0X2C  bgtz to, 0x34 aka 1
         InstMem[48] = 8'h14;InstMem[49] = 8'h00;InstMem[50] = 8'h00;InstMem[51] = 8'h00;// 0X30  bne $zero,$zero, 0  nothing happens
-        InstMem[52] = 8'h01;InstMem[53] = 8'h00;InstMem[54] = 8'h01;InstMem[55] = 8'h02;// 0X34  srl t0,t0 4 make reg 0
+        InstMem[52] = 8'h01;InstMem[53] = 8'h00;InstMem[54] = 8'h41;InstMem[55] = 8'h02;// 0X34  srl t0,t0 4 make reg 0
         InstMem[56] = 8'h19;InstMem[57] = 8'h00;InstMem[58] = 8'h00;InstMem[59] = 8'h01;// 0X38  blez t0, 0x40 aka 1 
         InstMem[60] = 8'h14;InstMem[61] = 8'h00;InstMem[62] = 8'h00;InstMem[63] = 8'h00;// 0X3C  bne $zero,$zero, 0  nothing happens 
-        InstMem[64] = 8'h02;InstMem[65] = 8'h00;InstMem[66] = 8'h00;InstMem[67] = 8'h00;// 0X40  jump 0x00  
+        InstMem[64] = 8'h08;InstMem[65] = 8'h00;InstMem[66] = 8'h00;InstMem[67] = 8'h00;// 0X40  jump 0x00  
         
         for( i = 68; i < 256; i = i + 1)begin //everything to address 255 should be 0
             InstMem[i] = 8'h00;

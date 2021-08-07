@@ -27,7 +27,7 @@ output reg[31:0] Dout;
 
 always@(posedge clk,posedge rst) begin
     if(rst) 
-        Dout <= 32'h0000;
+        Dout <= 32'h0028;//starting address to test branches and jump
     else
         Dout <= Din;
     end
