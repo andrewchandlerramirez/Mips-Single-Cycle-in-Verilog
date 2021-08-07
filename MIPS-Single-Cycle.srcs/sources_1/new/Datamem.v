@@ -66,11 +66,15 @@ always@(posedge clk,posedge rst) begin
     end
     else begin //only one enable can be asserted at a time
     datamem[address[6:2]] <= (write == 1'b1)? write_data: datamem[address[6:2]];//what address to use?
-    read_data <= (read == 1'b1)? datamem[address[6:2]]: read_data;
+    
     end
 
 end    
 
+
+always@(*)begin 
+read_data = (read == 1'b1)? datamem[address[6:2]]: read_data;
+end
 
 
 

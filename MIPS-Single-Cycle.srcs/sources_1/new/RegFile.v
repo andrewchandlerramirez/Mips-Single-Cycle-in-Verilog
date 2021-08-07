@@ -31,9 +31,9 @@ output reg[31:0] rs,rt;//registers to be read
 
 reg [31:0] mem1 [0:31];
 reg [31:0] i;//used in for loop to easily reset mem1
-always@(posedge clk) begin
+always@(posedge clk,posedge rst) begin
     if(rst) begin
-        for( i = 0; i < 31; i = i + 1)
+        for( i = 0; i <= 31; i = i + 1)
         mem1[i] <= 32'h0000;    
     end
     
